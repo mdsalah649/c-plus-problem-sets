@@ -23,5 +23,8 @@ int main()
     circle1 c1(1.0);
     circle1 c2(25);
     circle1 c3(125);
-    cout<<"The area of the circle of radius:"<<c1.radius<<"is"<<c1.getArea()<<endl;
+    cout<<"The area of the circle of radius:"<<c1.radius<<" is:"<<c1.getArea()<<endl;
+    cout<<"The area of the circle of raidus:"<<c2.radius<<" is:"<<c2.getArea()<<endl;
+    cout<<"The area of the circle of raidus:"<<c3.radius<<" is:"<<c3.getArea()<<endl;
+    return 0;
 }
